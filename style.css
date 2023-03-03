@@ -1,0 +1,794 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: #3D087B;
+    width: 1370px;
+    height: 850px;
+    position: relative;
+}
+.clock{
+    position: absolute;
+    top: 34px;
+left: 124px;
+width: 204px;
+height: 77px;
+}
+
+.form{
+    position: absolute;
+    top: 149px;
+left: 124px;
+width: 566px;
+height: 363px;
+background-color: white;
+border-radius: 10px;
+padding: 10px;
+
+}
+.formc{
+    position: absolute;
+    top: 163px;
+left: 149px;
+width: 517px;
+height: 335px;
+
+}
+.goodmorning{
+    position: absolute;
+    top: 527px;
+left: 124px;
+width: 566px;
+height: 77px;
+background-color: #9140B5;
+color: white;
+font-size: 27px;
+text-transform: uppercase;
+border-radius: 10px;
+padding: 20px;
+}
+button{
+    position: absolute;
+    top: 624px;
+left: 124px;
+width: 299px;
+height: 50px;
+background-image: linear-gradient(113deg, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
+color: white;
+font-size: 24px;
+border-radius: 4px;
+}
+
+.timing{
+    position: absolute;
+    top: 615px;
+left: 437px;
+width: 253px;
+height: 117px;
+background-color: #9140B5;
+padding: 10px;
+line-height: 20px;
+border-radius: 10px;
+color: #F25CFE;
+}
+.digitalclock{
+    position: absolute;
+    top: 42px;
+left: 706px;
+width: 536px;
+height: 130px;
+background-color: white;
+border-radius: 10px;
+z-index: 3;
+}
+
+.digitalclock1{
+    position: absolute;
+    top: 55px;
+left: 766px;
+width: 416px;
+height: 130px;
+background-color: white;
+border-radius: 10px;
+z-index: 2;
+opacity: .5;
+}
+
+.digitalclock2{
+    position: absolute;
+    top: 67px;
+    left: 785px;
+    width: 379px;
+    height: 130px;
+background-color: white;
+border-radius: 10px;
+z-index: 1;
+opacity: .2;
+}
+  
+
+.grab{
+    position: absolute;
+    top: 212px;
+left: 706px;
+width: 536px;
+height: 118px;
+background-color: white;
+font-size: 24px;
+padding: 40PX;
+text-transform: uppercase;
+color: #8E53F0;
+font-weight: bold;
+border-radius: 10px;
+}
+
+.window{
+    position: absolute;
+    top: 345px;
+left: 707px;
+width: 536px;
+height: 341px;
+}
+ /* Css of line1 starts from here */
+ 
+.line1{
+    position: absolute;
+    top: 0px;
+left: 149px;
+width: 517px;
+height: 45px;
+}
+
+.morning{
+    position: absolute;
+    top: 169px;
+left: 149px;
+width: 34px;
+height: 34px;
+}
+
+.setwakeup{
+    position: absolute;
+    top: 174px;
+left: 204px;
+width: 141px;
+height: 23px;
+}
+.select1{
+    position: absolute;
+    top: 163px;
+left: 385px;
+width: 281px;
+height: 45px;
+}
+select{
+    width: 270px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ /* Css of line2 starts from here */
+
+ .line2{
+    position: absolute;
+    top: 260px;
+left: 149px;
+width: 517px;
+height: 45px;
+}
+
+.lunch{
+    position: absolute;
+    top: 266px;
+left: 149px;
+width: 34px;
+height: 34px;
+}
+
+.setlunch{
+    position: absolute;
+    top: 271px;
+left: 204px;
+width: 119px;
+height: 23px;
+}
+.select2{
+    position: absolute;
+    top: 260px;
+left: 385px;
+width: 281px;
+height: 45px;
+}
+
+
+/* Css of line3 starts from here */
+
+.line3{
+    position: absolute;
+    top: 356px;
+left: 149px;
+width: 517px;
+height: 45px;
+}
+
+.nap{
+    position: absolute;
+    top: 362px;
+    left: 149px;
+    width: 34px;
+    height: 34px;
+}
+
+.setnap{
+    position: absolute;
+    top: 367px;
+left: 204px;
+width: 105px;
+height: 23px;
+}
+.select3{
+    position: absolute;
+    top: 356px;
+    left: 385px;
+    width: 281px;
+    height: 45px;
+}
+
+/* Css of line4 starts from here */
+
+.line4{
+    position: absolute;
+    top: 453px;
+    left: 149px;
+    width: 517px;
+    height: 45px;
+}
+
+.night{
+    position: absolute;
+    top: 459px;
+    left: 149px;
+    width: 34px;
+    height: 34px;
+}
+
+.setnight{
+    position: absolute;
+    top: 464px;
+    left: 204px;
+    width: 117px;
+    height: 23px;
+}
+.select4{
+    position: absolute;
+    top: 453px;
+left: 385px;
+width: 281px;
+height: 45px;
+}
+
+
+/* from here we will start writing css of Dgital Clock Css */
+.time{
+   position: absolute;
+   top: 94px;
+left: 745px;
+width: 46px;
+height: 26px; 
+z-index: 4;
+}
+
+.hours{
+    position: absolute;
+    top: 62px;
+left: 823px;
+width: 80px;
+height: 90px;
+z-index: 4;
+background-image: url(./timeline.svg);
+}
+
+.hoursdot{
+    position: absolute;
+    top: 98px;
+left: 911px;
+width: 4px;
+height: 22px;
+z-index: 4;
+
+}
+
+.minutes{
+    position: absolute;
+    top: 62px;
+left: 922px;
+width: 82px;
+height: 90px;
+z-index: 4;
+background-image: url(./timeline.svg);
+}
+
+.min{
+    position: absolute;
+    top: 98px;
+left: 1010px;
+width: 4px;
+height: 22px;
+z-index: 4;
+
+}
+
+
+.seconds{
+    position: absolute;
+    top: 62px;
+left: 1019px;
+width: 82px;
+height: 90px;
+z-index: 4;
+background-image: url(./timeline.svg);
+}
+
+.am{
+    position: absolute;
+    top: 62px;
+left: 1121px;
+width: 82px;
+height: 90px;
+z-index: 4;
+background-image: url(./AM_svg.svg);
+}
+
+.hoursu{
+    position: absolute;
+    top: 67px;
+left: 847px;
+width: 33px;
+height: 43px;
+z-index: 5;
+font-size: 36px;
+}
+
+.hoursl{
+    position: absolute;
+    top: 111px;
+left: 835px;
+width: 56px;
+height: 28px;
+z-index: 5;
+font-size: 23px;
+}
+
+.minutesu{
+
+    position: absolute;
+    top: 68px;
+left: 942px;
+width: 41px;
+height: 43px;
+z-index: 5;
+font-size: 36px;
+
+
+}
+.minutesl{
+
+    position: absolute;
+    top: 110px;
+left: 941px;
+width: 46px;
+height: 26px;
+z-index: 5;
+font-size: 23px;
+
+
+}
+
+.secondsu{
+    position: absolute;
+    top: 68px;
+left: 1043px;
+width: 32px;
+height: 43px;
+z-index: 5;
+font-size: 36px;
+}
+.secondsl{
+    position: absolute;
+    top: 111px;
+left: 1036px;
+width: 44px;
+height: 26px;
+z-index: 5;
+font-size: 23px;
+}
+
+.amc{
+    position: absolute;
+    top: 86px;
+left: 1138px;
+width: 48px;
+height: 43px;
+z-index: 5;
+font-size: 36px;
+color: white;
+}
+
+
+
+/* page 5 starts from here */
+.page5_container{
+    position: relative;
+    top: 0px;
+left: 0px;
+width: 1366px;
+height: 2194px;
+background-color:#3D087B ;
+}
+.logo{
+    position: absolute;
+    top: 80px;
+left: 109px;
+width: 32px;
+height: 18px;
+}
+.page5_clock{
+    position: absolute;
+    top: 112px;
+left: 108px;
+width: 204px;
+height: 77px;
+}
+
+.page5_icon{
+    position: absolute;
+    top: 259px;
+left: 108px;
+width: 359px;
+height: 111px;
+background-color: white;
+
+}
+
+.page5_iconc{
+    position: absolute;
+    top: 279px;
+left: 139px;
+width: 35px;
+height: 18px;
+}
+.page5_morning{
+    position: absolute;
+    top: 308px;
+left: 133px;
+width: 34px;
+height: 34px;
+}
+.page5_lunch{
+    position: absolute;
+    top: 308px;
+    left: 249px;
+    width: 34px;
+    height: 34px;
+}
+
+.page5_night{
+    position: absolute;
+    top: 308px;
+left: 365px;
+width: 34px;
+height: 34px;
+}
+
+.page5_digitalclock{
+
+width: 200px;
+background-color: white;
+   
+
+}
+
+/* page 5 css digital clock */
+.page5_time{
+    position: absolute;
+    top: 498px;
+    left: 147px;
+    width: 46px;
+    height: 26px;
+ z-index: 4;
+ }
+ 
+ .page5_hours{
+     position: absolute;
+     top: 466px;
+left: 225px;
+width: 80px;
+height: 90px;
+ z-index: 4;
+ background-image: url(./timeline.svg);
+ }
+ 
+ .page5_hoursdot{
+     position: absolute;
+     top: 502px;
+left: 313px;
+width: 4px;
+height: 22px;
+ z-index: 4;
+ 
+ }
+ 
+ .page5_minutes{
+     position: absolute;
+     top: 466px;
+left: 324px;
+width: 82px;
+height: 90px;
+ z-index: 4;
+ background-image: url(./timeline.svg);
+ }
+ 
+ .page5_min{
+     position: absolute;
+     top: 472px;
+left: 344px;
+width: 38px;
+height: 43px;
+ z-index: 4;
+ 
+ }
+ 
+ 
+ .page5_seconds{
+     position: absolute;
+     top: 466px;
+     left: 421px;
+     width: 82px;
+     height: 90px;
+ z-index: 4;
+ background-image: url(./timeline.svg);
+ }
+ 
+ .page5_am{
+     position: absolute;
+     top: 466px;
+     left: 523px;
+     width: 82px;
+     height: 90px;
+ z-index: 4;
+ background-image: url(./AM_svg.svg);
+ }
+ 
+ .page5_hoursu{
+     position: absolute;
+     top: 471px;
+left: 249px;
+width: 33px;
+height: 43px;
+ z-index: 5;
+ font-size: 36px;
+ }
+ 
+ .page5_hoursl{
+     position: absolute;
+     top: 515px;
+left: 237px;
+width: 56px;
+height: 28px;
+ z-index: 5;
+ font-size: 23px;
+ }
+ 
+ .page5_minutesu{
+ 
+     position: absolute;
+     top: 472px;
+     left: 344px;
+     width: 38px;
+     height: 43px;
+ z-index: 5;
+ font-size: 36px;
+ 
+ 
+ }
+ .page5_minutesl{
+ 
+     position: absolute;
+     top: 514px;
+left: 343px;
+width: 46px;
+height: 26px;
+ z-index: 5;
+ font-size: 23px;
+ 
+ 
+ }
+ 
+ .page5_secondsu{
+     position: absolute;
+     top: 472px;
+left: 445px;
+width: 32px;
+height: 43px;
+ z-index: 5;
+ font-size: 36px;
+ }
+ .page5_secondsl{
+     position: absolute;
+     top: 515px;
+     left: 438px;
+     width: 44px;
+     height: 26px;
+ z-index: 5;
+ font-size: 23px;
+ }
+ 
+ .page5_amc{
+     position: absolute;
+     top: 490px;
+     left: 540px;
+     width: 48px;
+     height: 43px;
+ z-index: 5;
+ font-size: 36px;
+ color: white;
+ }
+
+ .page5_digitalclock1{
+    position: absolute;
+    top: 459px;
+left: 168px;
+width: 416px;
+height: 130px;
+background-color: white;
+border-radius: 10px;
+z-index: 2;
+opacity: .5;
+}
+
+.page5_digitalclock2{
+    position: absolute;
+    top: 471px;
+left: 187px;
+width: 379px;
+height: 130px;
+background-color: white;
+border-radius: 10px;
+z-index: 1;
+opacity: .2;
+}
+
+.page5_digitalclock{
+
+    position: absolute;
+    top: 446px;
+left: 108px;
+width: 536px;
+height: 130px;
+background-color: white;
+}
+.page5_hoursdotmin{
+    position: absolute;
+    top: 502px;
+left: 412px;
+width: 4px;
+height: 22px;
+z-index: 4;
+}
+
+
+.page5_item3{
+    position: absolute;
+    top: 654px;
+left: 108px;
+    width: 281px;
+    height: 176px;
+background-color: white;
+line-height: 40px;
+padding: 10px;
+}
+
+
+.page6_window{
+    position: absolute;
+    top: 62px;
+left: 707px;
+width: 536px;
+height: 341px;
+}
+
+.page6_lunch{
+    position: absolute;
+    top: 446px;
+left: 707px;
+width: 536px;
+height: 341px;
+}
+
+.page6_nap{
+    position: absolute;
+    top: 830px;
+left: 707px;
+width: 536px;
+height: 341px;
+}
+.page6_night{
+position: absolute;
+top: 1214px;
+left: 722px;
+width: 536px;
+height: 341px;
+
+
+}
+
+
+
+/* last container css here */
+.page5_item10{
+    position: absolute;
+    top: 889px;
+left: 108px;
+width: 281px;
+height: 44px;
+background-color: #DDF5FF;
+}
+.page5_item11{
+    position: absolute;
+    top: 961px;
+left: 108px;
+width: 281px;
+height: 32px;
+background-color: #DDF5FF;
+}
+.page5_item12{
+    position: absolute;
+    top: 1033px;
+left: 108px;
+width: 281px;
+height: 32px;
+background-color: #DDF5FF;
+}
+.page5_item13{
+    position: absolute;
+    top: 1093px;
+    left: 108px;
+    width: 281px;
+    height: 36px;
+    background-color: #DDF5FF;
+}
+
+.page5_item10c{
+    position: absolute;
+    top: 902px;
+left: 124px;
+width: 82px;
+height: 18px;
+color: #00A5ECDE;
+}
+
+.page5_item11c{
+    position: absolute;
+    top: 968px;
+left: 124px;
+width: 84px;
+height: 18px;
+color: #00A5ECDE;
+}
+.page5_item12c{
+    position: absolute;
+    top: 1040px;
+left: 124px;
+width: 90px;
+height: 18px;
+color: #00A5ECDE;
+}
+.page5_item13c{
+    position: absolute;
+    top: 1102px;
+left: 124px;
+width: 90px;
+height: 18px;
+color: #00A5ECDE;
+}
