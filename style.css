@@ -340,7 +340,7 @@ z-index: 4;
 background-image: url(./AM_svg.svg);
 }
 
-.hoursu{
+#hr{
     position: absolute;
     top: 67px;
 left: 847px;
@@ -360,7 +360,7 @@ z-index: 5;
 font-size: 23px;
 }
 
-.minutesu{
+#min{
 
     position: absolute;
     top: 68px;
@@ -385,7 +385,7 @@ font-size: 23px;
 
 }
 
-.secondsu{
+#sec{
     position: absolute;
     top: 68px;
 left: 1043px;
@@ -404,7 +404,7 @@ z-index: 5;
 font-size: 23px;
 }
 
-.amc{
+#amc{
     position: absolute;
     top: 86px;
 left: 1138px;
